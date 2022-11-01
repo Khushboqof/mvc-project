@@ -7,11 +7,40 @@
     <body>
         <form action="/server.php" method="GET">
             <label for="username">Username</label>
-            <input type="Text" name="username" id="username">
-            <br>
-            <br>
+            <input type="Text" name="username" id="username"> <br> <br>
+
             <label for="password">Password</label>
-            <input type="password" name="password" id="password">
+            <input type="password" name="password" id="password"> <br> <br>
+
+            <label for="email">Emalingiz</label>
+            <input type="email" name="email" id="email"> <br> <br>
+
+            <label for="sana">Sanani kiriting</label>
+            <input type="date" name="date" id="date"> <br> <br>
+
+            <label for="student">Talaba</label>
+            <input type="checkbox" name="student"> <br> <br>
+
+            <label for="erkak">Erkak</label>
+            <input type="radio" name="gender" value="male">
+
+            <label for="ayol">Ayol</label>
+            <input type="radio" name="gender" value="female"> <br> <br>
+            
+            <label for="passport">Pasport</label>
+            <input type="file" name="passport" id="passport">
+            <hr>
+            <label for="tajriba">Tajribangiz (yil)</label>
+            <select>
+                <option value="0">Tajribam yo'q</option>
+                <option value="1">1 yildan kam</option>
+                <option value="2">2 yil</option>
+            </select> <br> <br>
+
+            <label for="haqida">O'zingiz haqingizda</label> <br>
+            <textarea id="haqida" name="name" rows="10" cols="50 "></textarea> <br> <br>
+            <button type="submit">Register</button>
         </form>
     </body>
 </html>
+RETURM 0
